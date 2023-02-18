@@ -18,9 +18,9 @@ gameutils.h -  to provide constant and structure declarations and function proto
 
 MiniMUDGame.cpp - to implement a Mini-MUD game that allows the player to explore a world made up of 
                   rooms (which may be outdoor locations) that may contain items that can be taken and 
-                  dropped. The player can move room to room by taking an exit, denoted by north, south, 
-                  east or west. The player must discover a quest (task/mission) to perform which involves 
-                  finding and taking certain objects and dropping them in a win room.
+                  dropped; the player can move room to room by taking an exit, denoted by north, south, 
+                  east or west; the player must discover a quest (task/mission) to perform which involves 
+                  finding and taking certain objects and dropping them in a win room
 
 cat.txt - input file for cat game        
 
@@ -30,6 +30,7 @@ lunch.txt - input file for lunch game
 
 
 Compile the source code by typing the following at the prompt $:
-$ g++ gameutils.cpp MiniMUDGame.cpp -o MiniMUDGame 
+
+$ g++ gameutils.cpp MiniMUDGame.cpp -o MiniMUDGame
 
 Code is available upon request
